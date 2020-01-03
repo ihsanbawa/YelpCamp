@@ -19,7 +19,7 @@ var commentRoutes     = require("./routes/comments"),
 //seedDB(); //seed the database
 //mongoose.connect("mongodb://localhost/yelp_camp", { useNewUrlParser: true, useUnifiedTopology: true });
 
-mongoose.connect("mongodb+srv://ibawa:<Randomly%231>@cluster0-hsrf3.mongodb.net/test?retryWrites=true&w=majority", { 
+mongoose.connect("mongodb+srv://ihsan:randomly@cluster0-hsrf3.mongodb.net/test?retryWrites=true&w=majority", { 
     useNewUrlParser: true, 
     useUnifiedTopology: true,
     useCreateIndex: true
